@@ -1,0 +1,29 @@
+header{
+    min-width: 100vw;
+    width: auto;
+    height: 5rem;
+    color: white;
+    background-color: black;
+    font-size: 1.4rem;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:5rem;
+    height:5rem;
+}
+input{
+    width: 20rem;
+    height: 2.7rem;
+    border-radius: 5px;
+}
+.nav-search{
+    position: relative;
+    svg{
+        position: absolute;
+        left: 0.5rem;
+        top: 0.3rem;
+    }
+}

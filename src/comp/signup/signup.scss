@@ -1,0 +1,23 @@
+.signup{
+    width: 70vw;
+    min-width: 50rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7rem;
+    h2{
+        font-size: 1.9rem;
+        width: 25rem;
+        font-weight: 400;
+    }
+    button{
+        width: 15rem;
+        height: 4rem;
+        background-color: blue;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: white;
+    }
+}

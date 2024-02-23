@@ -1,0 +1,60 @@
+.home-page-comp{
+    width: 80vw;
+    min-width: 50rem;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5rem;
+    h1{
+        font-size: 4rem;
+        font-weight: 400;
+        min-width: 49rem;
+    }
+    .row-border{
+        height: 5rem;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: start;
+        section{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .single-elem{
+            flex-grow: 3;
+            display: flex;
+            justify-content: end;
+        }
+    }
+}
+.home-services{
+    width: 70vw;
+    min-width: 48rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+        span{
+            list-style-type: none;
+        }
+        div{
+            flex-grow: 3;
+            display: flex;
+            justify-content: space-around;
+        }
+}
+.breadcumbs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+span{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+}

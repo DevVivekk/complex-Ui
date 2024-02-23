@@ -1,0 +1,80 @@
+.deals{
+    width: 70vw;
+    min-width: 50rem;
+    height: auto;
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    h2{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+}
+.align-deals{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.deals-div{
+    width: 27rem;
+    height: auto;
+    box-shadow: 0px 0px 10px whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    div{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-self: flex-start;
+    span{
+        background-color: lightskyblue;
+        color: blue;
+        padding: 0.4rem;
+        border-radius: 4px;
+    }
+}
+p{
+    align-self: flex-start;
+    width: 20rem;
+}
+.price-comp{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-self: flex-start;
+    span{
+        background-color: white;
+        color: black;
+    }
+}
+.price-comp>span:nth-child(1){
+    font-size: 1.7rem;
+}
+.price-comp>span:nth-child(2){
+    margin-top: 0.9rem;
+}
+.price-comp>span:nth-child(3){
+    margin-top: 0.9rem;
+    color: red;
+}
+button{
+    width: 27rem;
+    height: 3.5rem;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+}
+.deals-image{
+    align-self: center !important;
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+}
